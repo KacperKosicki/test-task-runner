@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -21,8 +22,10 @@ section {
 
 /* Navigation */
 nav {
-  text-align: right;
+  padding-bottom: 12px;
   padding-top: 25px;
+  padding-left: 20px;
+  text-align: right;
 }
 nav ul {
   padding: 0px;
@@ -46,10 +49,12 @@ nav ul li a:hover {
 .splash {
   height: 100vh;
   position: relative;
-  background-image: url("https://images.pexels.com/photos/2191606/pexels-photo-2191606.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1600");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
+  color: white;
 }
 
 .splash-inner {
